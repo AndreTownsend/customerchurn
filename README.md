@@ -1,5 +1,5 @@
 
-# Customer Churn Analysis & Prediction 📊
+# Customer Churn Analysis & Prediction 
 
 ## 1. Executive Summary
 This project analyzes customer attrition for a telecommunications provider to identify key drivers of churn and develop a proactive retention strategy. By leveraging a Logistic Regression model, we segmented customers into four risk tiers. The analysis reveals that targeting the "High Risk" segment with a strategic discount campaign could yield a **341% ROI**, saving approximately **$366,153 in lifetime value (LTV)**.
@@ -26,6 +26,7 @@ The project followed a standard data science pipeline:
 ### Churn by Contract Type
 Contract type is the most significant indicator of churn. Month-to-month customers are nearly 4x more likely to leave than those on two-year plans.
 
+![Customer Churn Analysis](ChurnV.png)
 
 
 ### Model Performance (ROC Curve)
