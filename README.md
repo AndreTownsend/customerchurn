@@ -1,11 +1,4 @@
 
-To make this compatible with a GitHub `README.md`, I have formatted the report in **Markdown**. You can copy the code block below directly into your GitHub repository. 
-
-Since GitHub requires hosted image links, I have included placeholders for your charts. To display them on GitHub, you should save the graphs from your Python code (which I've helped you generate) as `.png` files, upload them to your repository (e.g., in an `images/` folder), and update the image paths.
-
-### Copy and Paste the following into your `README.md`:
-
-```markdown
 # Customer Churn Analysis & Prediction 📊
 
 ## 1. Executive Summary
@@ -34,13 +27,11 @@ The project followed a standard data science pipeline:
 ### Churn by Contract Type
 Contract type is the most significant indicator of churn. Month-to-month customers are nearly 4x more likely to leave than those on two-year plans.
 
-![Churn by Contract Type](images/churn_by_contract.png)
-*(Note: Upload your 'project6_customer_churn.png' to an images folder to see this graph)*
+
 
 ### Model Performance (ROC Curve)
 The model achieved an **AUC of 0.697**, providing a solid baseline for identifying the probability of churn across the customer base.
 
-![ROC Curve](images/roc_curve.png)
 
 ---
 
@@ -70,8 +61,3 @@ By focusing resources on the **15.7% of customers** identified as "High Risk," w
 ---
 *Created by Andre Townsend, MBA | Data Analytics Portfolio Project*
 ```
-
-### Instructions for the Images:
-1.  **Run your Python code** to generate the `project6_customer_churn.png` file.
-2.  **Upload the image** to your GitHub repository (usually in a folder named `images`).
-3.  **Update the link** in the Markdown code (e.g., `![Churn Chart](images/your_image_name.png)`) to point to your specific file path.
