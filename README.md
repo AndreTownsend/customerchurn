@@ -1,2 +1,1 @@
 
-https://github.com/AndreTownsend/customerchurn/blob/e6d1b80c8f4ef3dbeefe931a447ef81e134b84e8/Churn_Analysis_Report.pdf
